@@ -104,11 +104,7 @@ instantly across the dashboard.
 | covid_19_clean_complete.csv | Daily country data |
 | worldometer_data.csv | Country summary stats |
 
-## 📷 Screenshots
-![Global Overview](page1_global.png)
-![Country Comparison](page2_comparison.png)
-![Country Drillthrough](page3_drillthrough.png)
-![RLS Africa View](rls_africa.png)
+
 
 ## 🗂️ Dataset
 https://www.kaggle.com/datasets/imdevskp/corona-virus-report
