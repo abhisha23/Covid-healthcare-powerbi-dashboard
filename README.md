@@ -29,6 +29,13 @@ DAX measures, and interactive drillthrough navigation.
 - Scatter plot: Confirmed vs Deaths with 
   ratio line identifying countries with 
   disproportionately high death rates
+  - What-If Death Rate Simulator: dynamic 
+  slider adjusting from 0% to 20% to model 
+  worst case scenarios in real time
+- Side by side Actual vs Adjusted Death 
+  Rate % cards showing instant impact 
+  of scenario changes
+  
 
 ### Page 3 — Country Drillthrough
 - Drillthrough from any country data point
@@ -52,6 +59,20 @@ data access per analyst:
 When a role is applied the entire dashboard — 
 KPIs, map, charts and slicers — automatically 
 filters to show only that continent's data.
+
+## 📊 What-If Analysis (Scenario Modelling)
+Built a dynamic Death Rate Scenario Simulator 
+using Power BI What-If parameters:
+
+- Adjustable slider from 0% to 20% increment 0.01
+- Actual Death Rate % card — current real value
+- Adjusted Death Rate % card — simulated value
+- Allows healthcare planners to model worst 
+  case death rate scenarios in real time
+
+Example: Setting adjustment to 13% increases 
+simulated death rate from 5.24% to 18.24% 
+instantly across the dashboard.
 
 ## 🔧 Technical Features
 - Star schema data model with 3 tables:
